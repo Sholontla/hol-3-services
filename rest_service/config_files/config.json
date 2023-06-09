@@ -1,0 +1,16 @@
+{
+    "http_server": 
+        {
+            "port": ":1000"
+        },        
+
+    "bigquery_server": 
+        {
+            "project_id": "hol-3-service",
+            "dataset_id": "hol_3_db",
+            "table_id": "hol_3_table"
+        }
+
+}
+
+

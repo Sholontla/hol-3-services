@@ -1,0 +1,7 @@
+go 1.19
+
+use (
+	./publisher_service
+	./rest_service
+	./subscriber_service
+)

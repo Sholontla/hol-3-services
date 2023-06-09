@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+
+  pub_hol3_service:
+    restart: always
+    container_name: pub_hol3_service_container
+    build: .
+    ports:
+      - 1001:1001
+    volumes:
+      - .:/app
+    networks: 
+      - service_hol3_demo
+
+networks:
+  service_hol3_demo:
+    name: net_service_hol3_demo

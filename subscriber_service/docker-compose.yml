@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+
+  sub_hol3_service:
+    restart: always
+    container_name: sub_hol3_service_container
+    build: .
+    volumes:
+      - .:/app
+    networks: 
+      - service_hol3_demo
+
+networks:
+  service_hol3_demo:
+    name: net_service_hol3_demo

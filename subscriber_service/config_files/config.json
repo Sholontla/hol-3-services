@@ -1,0 +1,12 @@
+{
+    "bigquery_server": 
+        {
+            "project_id": "hol-3-service",
+            "dataset_id": "hol_3_db",
+            "table_id": "hol_3_table",
+            "topic_id": "topic-hol3-id-sub"
+        }
+
+}
+
+
